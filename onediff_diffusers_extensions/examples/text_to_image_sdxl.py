@@ -62,7 +62,7 @@ parser.add_argument(
 parser.add_argument(
     "--run_rare_resolutions",
     type=(lambda x: str(x).lower() in ["true", "1", "yes"]),
-    default=True,
+    default=False,
 )
 args = parser.parse_args()
 

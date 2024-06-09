@@ -105,7 +105,7 @@ elif args.compiler == "nexfort":
 
 # Warmup with run
 # Will do compilatioin in the first run
-print("Warmup with running graphs...")
+# print("Warmup with running graphs...")
 torch.manual_seed(args.seed)
 image = base(
     prompt=args.prompt,
